@@ -1,0 +1,336 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+padding: 0;
+margin: 0;
+}
+/*  */
+
+/* For Medium screens */
+
+
+@media only screen and (max-width: 767px){
+
+/* h1 styling */
+h1{
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* card-1-styling */
+
+/* h2 styling */
+
+
+h2.card_1{
+    float: right;
+    padding: 10px;
+    background-color: #F88460;
+    color: #FFFEFE;
+    width:100px;
+    text-align: center;
+}
+
+
+
+div.card_1{
+    background-color: #F2F2F2;
+    width: 500px;
+    margin: 5% auto 0;
+    
+    
+}
+
+p.card_1{
+    clear: right;
+    margin-top: 10px;
+    padding: 20px;
+    
+
+}
+
+/* card-2-styling */
+
+/* h2 styling */
+
+h2.card_2{
+    float: right;
+    padding: 10px;
+    background-color: #F86060;
+    color: #FFFEFE;
+    width:100px;
+    text-align: center;
+}
+
+
+
+div.card_2{
+    background-color: #F2F2F2;
+    width: 500px;
+    margin: 5% auto 0;
+    
+    
+}
+
+p.card_2{
+    clear: right;
+    margin-top: 10px;
+    padding: 20px;
+    
+
+}
+
+/* card-3-styling */
+
+/* h2 styling */
+
+h2.card_3{
+    float: right;
+    padding: 10px;
+    background-color: #F8F360;
+    color: #202020;
+    width:100px;
+    text-align: center;
+}
+
+
+
+div.card_3{
+    background-color: #F2F2F2;
+    width: 500px;
+    margin: 5% auto 0;
+    
+    
+}
+
+p.card_3{
+    clear: right;
+    margin-top: 10px;
+    padding: 20px;
+    
+
+}
+
+
+
+}
+
+
+/* MEDIA QUERIES */
+
+/* For Medium screens */
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+
+*{
+    
+}    
+    /* h1 styling */
+h1{
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* card-1-styling */
+
+/* h2 styling */
+
+
+h2.card_1{
+    float: right;
+    padding: 10px;
+    background-color: #F88460;
+    color: #FFFEFE;
+    width:100px;
+    text-align: center;
+}
+
+
+
+div.card_1{
+    background-color: #F2F2F2;
+    width: 45%;
+    float: left;
+    box-sizing: border-box;
+    margin: 5% 0 0 2%;
+    left: 1%;
+    
+    
+}
+
+p.card_1{
+    clear: right;
+    margin-top: 10px;
+    padding: 20px;
+    
+
+}
+
+/* card-2-styling */
+
+/* h2 styling */
+
+h2.card_2{
+    float: right;
+    padding: 10px;
+    background-color: #F86060;
+    color: #FFFEFE;
+    width:100px;
+    text-align: center;
+}
+
+
+
+div.card_2{
+    background-color: #F2F2F2;
+    width: 45%;
+    margin: 5% 2% 5% 0;
+    float: right;
+    position: relative;
+    
+    
+}
+
+p.card_2{
+    clear: right;
+    margin-top: 10px;
+    padding: 20px;
+    
+
+}
+
+/* card-3-styling */
+
+/* h2 styling */
+
+h2.card_3{
+    float: right;
+    padding: 10px;
+    background-color: #F8F360;
+    color: #202020;
+    width:100px;
+    text-align: center;
+}
+
+
+
+div.card_3{
+    background-color: #F2F2F2;
+    width: 96%;
+    margin: 15% auto 0;
+    clear: both;
+    
+
+    
+    
+}
+
+p.card_3{
+    clear: right;
+    
+    padding: 20px;
+    
+
+}
+
+}
+
+/* For Large screens */
+@media only screen and (min-width: 992px){
+    
+    *{
+        margin: 0; 
+        padding: 0;
+    }
+    h1{
+        
+        text-align: center;
+    }
+    div.card_1{
+        float: left;
+        clear: left;
+        width: 30%;
+        margin-right: 3%;
+        
+        background-color: #F2F2F2;
+    }
+
+    h2.card_1{
+        background-color: #F88460;
+        color: #FFFEFE;
+        padding: 10px;
+        float: right;
+        width:100px;
+        text-align: center;
+    }
+
+    p.card_1{
+        clear: both;
+        padding: 20px;
+    }
+
+
+    div.card_2{
+        float: left;
+        width: 30%;
+        margin-right: 3%;
+        
+        background-color: #F2F2F2;
+        
+    }
+
+    h2.card_2{
+        background-color: #F86060;
+        color: #FFFEFE;
+        padding: 10px;
+        float: right;
+        width:100px;
+        text-align: center;
+    }
+
+    p.card_2{
+        clear: both;
+        padding: 20px;
+    }
+
+
+    div.card_3{
+        float: left;
+        width: 30%;
+        
+        background-color: #F2F2F2;
+        
+    }
+
+    h2.card_3{
+        background-color: #F8F360;
+        color: #202020;
+        padding: 10px;
+        float: right;
+        width:100px;
+        text-align: center;
+    }
+
+    p.card_3{
+        clear: both;
+        padding: 20px;
+    }
+
+    section{
+        margin: 2% auto;
+        clear: both;
+        width: 80%; 
+  }
+
+  h1{
+      margin-top: 2%;
+  }
+    
+}
+    
+ 
+
+      
